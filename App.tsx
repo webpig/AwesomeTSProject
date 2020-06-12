@@ -9,29 +9,10 @@
  */
 
 import React from 'react';
-import {
-  StyleSheet,
-  View,
-  Text,
-} from 'react-native';
+import Home from './src/pages/Home';
 
 const App = () => {
-  return (
-    <View style={styles.container}>
-      <Text style={styles.black}>Hello, world!</Text>
-    </View>
-  );
+  return <Home />;
 };
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-  black: {
-    color: 'black'
-  },
-});
 
 export default App;

@@ -1,5 +1,15 @@
 # AwesomeTSProject
 
+### 运行项目
+
+```zsh
+1. git clone git@github.com:webpig/AwesomeTSProject.git
+2. cd AwesomeTSProject && npm start
+3. yarn react-native run-ios/run-android
+```
+
+环境配置：https://reactnative.cn/docs/getting-started
+
 ### 参考资料：
 
 * [React中文文档](https://zh-hans.reactjs.org/docs/getting-started.html)
